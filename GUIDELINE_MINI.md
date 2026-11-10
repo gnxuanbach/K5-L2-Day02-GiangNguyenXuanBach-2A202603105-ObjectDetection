@@ -7,9 +7,9 @@
 | Lớp | Định nghĩa của bạn | Ví dụ/điểm phân biệt |
 | --- | --- | --- |
 | `car` |Xe ô tô con chở người cỡ nhỏ đến trung bình; gồm cả xe bán tải cabin nhỏ. |Sedan, hatchback, taxi, xe cá nhân, xe bán tải, Phân biệt với van : car có nắp capo rõ và mui thấp|
-| `truck` |Xe tải, có cabin tách với thùng |Xe tải, xe ben, xe thùng, xe bán tải cabin lớn. Phân biệt với van: truck có cabin và thùng tách nhau|
-| `bus` |Xe khách hoặc xe buýt thân dài, chở được nhiều người, có nhiều cửa sổ chạy dọc theo chiều dài xe |Xe buýt công cộng, xe khách, xe buýt hai tầng. Phân biệt với van: bus dài hơn nhiều, mui cao và thẳng, có dãy cửa sổ liên tục. |
-| `van` |Xe thân hộp liền khối, cabin và khoang sau liền nhau | Minivan, Minivan, ngắn hơn bus|
+| `truck` |Xe tải, có cabin tách với thùng |Xe tải, xe ben, xe thùng. Phân biệt với van: truck có cabin và thùng tách nhau|
+| `bus` |Xe khách hoặc xe buýt thân dài, chở được nhiều người, có nhiều cửa sổ chạy dọc theo chiều dài xe |Xe buýt công cộng, xe khách, xe buýt hai tầng,xe buýt khớp nối. Phân biệt với van: bus dài hơn nhiều, mui cao và thẳng, có dãy cửa sổ liên tục. |
+| `van` |Xe thân hộp liền khối, cabin và khoang sau liền nhau | Minivan, ngắn hơn bus|
 
 ## Quy tắc chung
 
@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_012.jpg` |Xe khách cỡ nhỏ, có dãy cửa sổ bên hông nhưng thân ngắn và liền khối | van|Schema ghi minibus thuộc bus, nhưng thân hộp liền khối và ngắn hơn nhiều so với bus lớn |
+| `drive_030` |xe dáng gầm cao, có nắp capo, giống xe con nhưng lớn hơn	 | van| Trong hình là xe MPV, Schema liệt kê minivan trong van |
+| `drive_019` |Xe cứu hộ/cẩu màu trắng có cần cẩu trên cabin, phân vân giữa truck và van |truck |Cabin tách khỏi phần mang thiết bị cẩu ở phía sau, không phải thân hộp liền khối |
