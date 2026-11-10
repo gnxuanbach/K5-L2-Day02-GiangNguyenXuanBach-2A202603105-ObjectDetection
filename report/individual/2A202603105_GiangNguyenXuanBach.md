@@ -4,12 +4,12 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
-- Link repo bài làm:
-- Link Colab đã chạy:
+- Họ tên: Giang Nguyễn Xuân Bách
+- MSSV: 2A202603105
+- Email: gnxuanbach@gmail.com  
+- Lớp:L2A
+- Link repo bài làm:https://github.com/gnxuanbach/K5-L2-Day02-GiangNguyenXuanBach-2A202603105-ObjectDetection
+- Link Colab đã chạy:https://colab.research.google.com/drive/1MpFoYmNNXfFU_yhpdocHNchVR14xdoZ1?usp=sharing
 
 ## 2. Schema và mini guideline
 
